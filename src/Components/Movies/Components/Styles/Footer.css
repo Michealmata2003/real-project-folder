@@ -1,0 +1,126 @@
+.footer-main {
+  background-color: #000000;
+  width: 100%;
+  padding: 80px 0px;
+  position: relative;
+}
+.footer-head {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px 0px;
+}
+.footer-head .social {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 10px;
+}
+.footer-head .social p {
+  color: #6c757d !important;
+  padding: 15px 0px;
+  font-size: 15px;
+  width: 80%;
+}
+.footer-head .social-icons {
+  display: flex;
+  gap: 10px;
+  color: #ffffff;
+}
+.footer-head .social-icons svg {
+  color: #ffffff;
+  font-size: 23px;
+}
+.display {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.display h6 {
+  font-size: 18px;
+  color: #ffffff;
+}
+.display a {
+  color: #6c757d;
+  font-size: 16px;
+  padding: 5px 0px;
+}
+.display a:hover {
+  color: #dd0606;
+}
+.production {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.production h6 {
+  font-size: 18px;
+  color: #ffffff;
+}
+.production a {
+  color: #6c757d;
+  font-size: 16px;
+  padding: 5px 0px;
+}
+.production a:hover {
+  color: #dd0606;
+}
+.quality {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.quality h6 {
+  font-size: 18px;
+  color: #ffffff;
+}
+.quality a {
+  color: #6c757d;
+  font-size: 16px;
+  padding: 5px 0px;
+}
+.quality a:hover {
+  color: #dd0606;
+}
+.footer-foot {
+  background-color: #12222d;
+  padding: 20px 0px;
+}
+.footer-reservered {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-reservered p {
+  color: #6c757d;
+}
+.footer-reservered div {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 958px) {
+  .footer-head {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-head .social {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 680px) {
+  .footer-reservered {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 488px) {
+  .footer-head {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}

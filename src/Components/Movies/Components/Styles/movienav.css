@@ -1,0 +1,58 @@
+.dropping-me {
+  position: fixed;
+  width: 100%;
+  display: flex;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.winrar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.logo {
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  color: #551a8b;
+}
+.avatar {
+  padding: 5px;
+  background: #fb2525;
+  border-radius: 50%;
+  /* font-size: 30px; */
+}
+.avatar:hover + .indicate-out {
+    display: block;
+    transition: all .5s ease-in-out;
+}
+.last-ul svg {
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+}
+.indicate-out{
+    position: absolute;
+    right: 4%;
+    display: none;
+}
+.indicate-out p{
+    color: #fff;font-size: 14px;
+}
+.settings {
+  font-size: 50px;
+  animation: counter-clockwise infinite 2s linear;
+}
+@keyframes counter-clockwise {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

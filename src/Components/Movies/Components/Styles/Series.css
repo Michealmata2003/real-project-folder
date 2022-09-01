@@ -1,0 +1,182 @@
+.series{
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background-image: linear-gradient(to top, #202020, rgb(2 2 2 / 90%)), url('../../images/best-series.jpg');
+}
+
+.SeriesDrama{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+.SeriesDrama img{
+    width: 100%;
+    height: 50vh;
+}
+.SeriesAction{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+.SeriesAction img{
+    width: 100%;
+    height: 50vh;
+}
+.SeriesRomance{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+.SeriesRomance img{
+    width: 100%;
+    height: 50vh;
+}
+.series-gist{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
+.series-gist h6{
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.series-gist h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.series-gist p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.work-buttons{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.drama{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.action{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.romance{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.image-text h6{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 5px 0px;
+    font-weight: 400;
+}
+.image-text div{
+    display: flex;
+    color: #bea9a9;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+.sponsors{
+    background: #12222D;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+.sponsor-logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+.sponsors-text{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.sponsors-text h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.sponsors-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #d3c6c6;
+}
+ .sponsor-logos a{
+    color: red;
+    padding: 20px 0px;
+    font-size: 40px;
+}
+
+@media (max-width:1200px) {
+    .SeriesDrama {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+}
+@media (max-width:1000px) {
+    .SeriesDrama {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+@media (max-width:870px) {
+    .SeriesDrama {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .sponsor-logos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media (max-width:670px) {
+    .SeriesDrama {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .sponsor-logos{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+@media (max-width:430px) {
+    .SeriesDrama {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+}
