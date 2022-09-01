@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Gothic', serif;
+}
+body{
+    font-family: 'Gothic', serif;
 
+}
 body::-webkit-scrollbar {
   width: 1em;
   
